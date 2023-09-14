@@ -5,6 +5,13 @@ VisualStudioVersion = 25.0.1706.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HockeyClassLibrary", "HockeyClassLibrary.csproj", "{66D32621-BB01-4494-B79B-D2F25CCD5983}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{62825334-A6F0-46C6-A8AE-35A24A11DFE0}"
+	ProjectSection(SolutionItems) = preProject
+		EmptyClass.cs = EmptyClass.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "..\Utilities\Utilities.csproj", "{98FEF08C-4511-4E4A-8D95-0AAAE969433C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,10 @@ Global
 		{66D32621-BB01-4494-B79B-D2F25CCD5983}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66D32621-BB01-4494-B79B-D2F25CCD5983}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66D32621-BB01-4494-B79B-D2F25CCD5983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98FEF08C-4511-4E4A-8D95-0AAAE969433C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98FEF08C-4511-4E4A-8D95-0AAAE969433C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98FEF08C-4511-4E4A-8D95-0AAAE969433C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98FEF08C-4511-4E4A-8D95-0AAAE969433C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

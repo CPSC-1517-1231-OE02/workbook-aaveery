@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
-      "Utilities/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/Utilities.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Utilities.dll": {}
-        }
-      }
-    }
+    "net7.0": {}
   },
-  "libraries": {
-    "Utilities/1.0.0": {
-      "type": "project",
-      "path": "../Utilities/Utilities.csproj",
-      "msbuildProject": "../Utilities/Utilities.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0": [
-      "Utilities >= 1.0.0"
-    ]
+    "net7.0": []
   },
   "packageFolders": {
     "/Users/avery/.nuget/packages/": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/avery/Projects/workbook-aaveery/HockeyClassLibrary/HockeyClassLibrary.csproj",
-      "projectName": "HockeyClassLibrary",
-      "projectPath": "/Users/avery/Projects/workbook-aaveery/HockeyClassLibrary/HockeyClassLibrary.csproj",
+      "projectUniqueName": "/Users/avery/Projects/workbook-aaveery/Utilities/Utilities.csproj",
+      "projectName": "Utilities",
+      "projectPath": "/Users/avery/Projects/workbook-aaveery/Utilities/Utilities.csproj",
       "packagesPath": "/Users/avery/.nuget/packages/",
-      "outputPath": "/Users/avery/Projects/workbook-aaveery/HockeyClassLibrary/obj/",
+      "outputPath": "/Users/avery/Projects/workbook-aaveery/Utilities/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/avery/.nuget/NuGet/NuGet.Config"
@@ -50,11 +31,7 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {
-            "/Users/avery/Projects/workbook-aaveery/Utilities/Utilities.csproj": {
-              "projectPath": "/Users/avery/Projects/workbook-aaveery/Utilities/Utilities.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

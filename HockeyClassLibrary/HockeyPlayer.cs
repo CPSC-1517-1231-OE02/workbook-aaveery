@@ -1,4 +1,10 @@
-﻿namespace HockeyClassLibrary.Data;
+﻿using Utils;
+
+/// <summay>
+/// An instance of this class will hold data about a hockey player.
+/// </summay>
+
+namespace HockeyClassLibrary.Data;
 // ^^^ this is not actually necessary - just there to help us organize our namespaces and code
     // when we define a namespace, we are saying that all of the classes belong to this specific namespace
 
@@ -23,7 +29,7 @@
 public class HockeyPlayer
 {
     // define data fields
-        // the actual variables that holds the data that describes the class itself
+        // the actual variables that holdsx the data that describes the class itself
         // field names are prefixed with an underscore and follow camel case naming conventions
         // auto-implemented properties can bypass the need for fields because fields will be created behind the scenes
     private string _birthPlace;
@@ -54,7 +60,7 @@ public class HockeyPlayer
         {
             // validation
                 // always check for the exception first
-            if (String.IsNullOrWhiteSpace(value))
+            if (Utilities.IsNullEmptyOrWhiteSpace(value))
             {
                 // throwing an exception will allow us to communicate this issue to whatever platform this system is being used for
                 // Argument in ArgumentException refers to the value that was inputted
@@ -67,6 +73,42 @@ public class HockeyPlayer
         }
     }
 
+    public string FirstName
+    {
+        get
+        {
+            return _firstName;
+        }
+
+        set
+        {
+            if (Utilities.IsNullEmptyOrWhiteSpace(value))
+            {
+                throw new ArgumentException("First Name cannot be null or empty.");
+            }
+
+            _firstName = value;
+        }
+    }
+
+    public string LastName
+    {
+        get
+        {
+            return _lastName;
+        }
+
+        set
+        {
+            if (Utilities.IsNullEmptyOrWhiteSpace(value))
+            {
+                throw new ArgumentException("Last Name cannot be null or empty.");
+            }
+
+            _lastName = value;
+        }
+    }
+
     public int HeightInInches
     {
         get
@@ -76,12 +118,31 @@ public class HockeyPlayer
 
         set
         {
-            if (value <= 0)
+            if (Utilities.IsZeroOrNegative(value))
             {
                 throw new ArgumentException("Height must be positive.");
             }
 
             _heightInInches = value;
+        }
+    }
+
+    public int WeightInPounds
+    {
+        get
+        {
+            return _weightInPounds;
+        }
+
+        set
+        {
+            // if IsPositive is NOT true then ...
+            if (!Utilities.IsPositive(value))
+            {
+                throw new ArgumentException("Weight must be positive.");
+            }
+
+            _weightInPounds = value;
         }
     }
 
@@ -95,7 +156,12 @@ public class HockeyPlayer
 
         set
         {
-            // TO DO: update validation
+            // can't be in the future, so we're going to pair it with a relational operator
+            if (Utilities.IsInTheFuture(value))
+            {
+                throw new ArgumentException("Date of birth cannot be in the future.");
+            }
+
             _dateOfBirth = value;
         }
     }
@@ -129,15 +195,17 @@ public class HockeyPlayer
 
     // greedy constructor:
         // method overloading - same method with same name but changing the signature (adding parameters)
-    public HockeyPlayer(string firstName, string lastName, string birthPlace, DateOnly birthDate, int weightInPounds, int heightInInches, Position position = Position.Center, Shot shot = Shot.Left)
+    public HockeyPlayer(string firstName, string lastName, string birthPlace, DateOnly dateOfBirth, int weightInPounds, int heightInInches, Position position = Position.Center, Shot shot = Shot.Left)
         // ^^ the parameters that have values assigned to them are assigned those parameters if a value is not given to them in a new object instance
             // ex. HockeyPlayer player = new HockeyPlayer("jane", "doe", "edmonton", new DateOnly(), 1, 2); they would be assigned Position Center and Shot Left
     {
         // default parameters
-        // TO DO: implement and use the remaining properties
+        FirstName = firstName;
+        LastName = lastName;
         BirthPlace = birthPlace;
         HeightInInches = heightInInches;
-        DateOfBirth = birthDate;
+        WeightInPounds = weightInPounds;
+        DateOfBirth = dateOfBirth;
         Shot = shot;
         Position = position;
     }
