@@ -1,0 +1,107 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "HockeyClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Utilities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HockeyClassLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HockeyClassLibrary.dll": {}
+        }
+      },
+      "Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Utilities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HockeyClassLibrary/1.0.0": {
+      "type": "project",
+      "path": "../HockeyClassLibrary/HockeyClassLibrary.csproj",
+      "msbuildProject": "../HockeyClassLibrary/HockeyClassLibrary.csproj"
+    },
+    "Utilities/1.0.0": {
+      "type": "project",
+      "path": "../Utilities/Utilities.csproj",
+      "msbuildProject": "../Utilities/Utilities.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "HockeyClassLibrary >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/avery/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/avery/Projects/workbook-aaveery/HockeyConsoleApp/HockeyConsoleApp.csproj",
+      "projectName": "HockeyConsoleApp",
+      "projectPath": "/Users/avery/Projects/workbook-aaveery/HockeyConsoleApp/HockeyConsoleApp.csproj",
+      "packagesPath": "/Users/avery/.nuget/packages/",
+      "outputPath": "/Users/avery/Projects/workbook-aaveery/HockeyConsoleApp/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/avery/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "/Users/avery/Projects/workbook-aaveery/HockeyClassLibrary/HockeyClassLibrary.csproj": {
+              "projectPath": "/Users/avery/Projects/workbook-aaveery/HockeyClassLibrary/HockeyClassLibrary.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
