@@ -56,7 +56,7 @@ public class HockeyPlayer
             return _birthPlace;
         }
 
-        set
+        private set // can only be utilized from within the class itself
         {
             // validation
                 // always check for the exception first
@@ -80,7 +80,7 @@ public class HockeyPlayer
             return _firstName;
         }
 
-        set
+        private set
         {
             if (Utilities.IsNullEmptyOrWhiteSpace(value))
             {
@@ -98,7 +98,7 @@ public class HockeyPlayer
             return _lastName;
         }
 
-        set
+        private set
         {
             if (Utilities.IsNullEmptyOrWhiteSpace(value))
             {
@@ -116,7 +116,7 @@ public class HockeyPlayer
             return _heightInInches;
         }
 
-        set
+        private set
         {
             if (Utilities.IsZeroOrNegative(value))
             {
@@ -134,7 +134,7 @@ public class HockeyPlayer
             return _weightInPounds;
         }
 
-        set
+        private set
         {
             // if IsPositive is NOT true then ...
             if (!Utilities.IsPositive(value))
@@ -154,7 +154,7 @@ public class HockeyPlayer
             return _dateOfBirth;
         }
 
-        set
+        private set
         {
             // can't be in the future, so we're going to pair it with a relational operator
             if (Utilities.IsInTheFuture(value))
@@ -168,6 +168,7 @@ public class HockeyPlayer
 
     // auto-implemented properties
         // this is allowed because we don't have to do any sort of validation since it can only be specified values from the enum
+        // USE THIS FOR EXERCISE 1
     public Position Position { get; set; }
 
     public Shot Shot { get; set; }
@@ -178,20 +179,22 @@ public class HockeyPlayer
         // object intializer - allows you to use the default constructor and only pass in specific parameters
 
     // default constructor:
-        // if you don't specify a default constructor than the defaults for the data type are applied
-    public HockeyPlayer()
-    {
-        // ensure that none of the non-nullable fields are null by assigning it a string.Empty value
-        _firstName = string.Empty;
-        _lastName = string.Empty;
-        _birthPlace = string.Empty;
-        _dateOfBirth = new DateOnly();
-        _weightInPounds = 0;
-        _heightInInches = 0;
-        // this comes from our enum we created earlier
-        Position = Position.Center;
-        Shot = Shot.Left;
-    }
+    //    // if you don't specify a default constructor than the defaults for the data type are applied
+
+    // commenting this out because it's just for example of how you could use a default constructor
+    //public HockeyPlayer()
+    //{
+    //    // ensure that none of the non-nullable fields are null by assigning it a string.Empty value
+    //    _firstName = string.Empty;
+    //    _lastName = string.Empty;
+    //    _birthPlace = string.Empty;
+    //    _dateOfBirth = new DateOnly();
+    //    _weightInPounds = 0;
+    //    _heightInInches = 0;
+    //    // this comes from our enum we created earlier
+    //    Position = Position.Center;
+    //    Shot = Shot.Left;
+    //}
 
     // greedy constructor:
         // method overloading - same method with same name but changing the signature (adding parameters)
@@ -208,6 +211,15 @@ public class HockeyPlayer
         DateOfBirth = dateOfBirth;
         Shot = shot;
         Position = position;
+    }
+
+    // Override ToString()
+        // for example if you were to put Console.WriteLine(player1), this method would automatically output the object using the following template
+    public override string ToString()
+    {
+
+        return $"{FirstName}, {LastName}";
+
     }
 }
 

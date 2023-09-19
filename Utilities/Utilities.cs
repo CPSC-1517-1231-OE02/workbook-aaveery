@@ -14,6 +14,9 @@ public static class Utilities
 
     // this method uses the terrinary operator which means if the value is greater than zero return true otherwise return false
     public static bool IsPositive(int value) => value > 0 ? true : false;
+    public static bool IsPositive(double value) => value > 0.0 ? true : false;
+    public static bool IsPositive(decimal value) => value > 0.0m ? true : false;
+    // the above three lines of code are examples of method overloading
 
     public static bool IsInTheFuture(DateOnly value) => value > DateOnly.FromDateTime(DateTime.Now);
 }
