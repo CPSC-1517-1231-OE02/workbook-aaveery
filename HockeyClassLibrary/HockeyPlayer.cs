@@ -40,6 +40,7 @@ public class HockeyPlayer
     // use this instead of DateTime if you don't care for the time portion of that
     // 'using System' is where this comes from
     private DateOnly _dateOfBirth;
+    private int _jerseyNumber;
 
     // properties
         // the idea behind properties is to give public access to fields
@@ -198,7 +199,7 @@ public class HockeyPlayer
 
     // greedy constructor:
         // method overloading - same method with same name but changing the signature (adding parameters)
-    public HockeyPlayer(string firstName, string lastName, string birthPlace, DateOnly dateOfBirth, int weightInPounds, int heightInInches, Position position = Position.Center, Shot shot = Shot.Left)
+    public HockeyPlayer(string firstName, string lastName, string birthPlace, DateOnly dateOfBirth, int weightInPounds, int heightInInches, int jerseyNumber, Position position = Position.Center, Shot shot = Shot.Left)
         // ^^ the parameters that have values assigned to them are assigned those parameters if a value is not given to them in a new object instance
             // ex. HockeyPlayer player = new HockeyPlayer("jane", "doe", "edmonton", new DateOnly(), 1, 2); they would be assigned Position Center and Shot Left
     {
@@ -209,12 +210,33 @@ public class HockeyPlayer
         HeightInInches = heightInInches;
         WeightInPounds = weightInPounds;
         DateOfBirth = dateOfBirth;
+        JerseyNumber = jerseyNumber;
         Shot = shot;
         Position = position;
     }
 
+    public int JerseyNumber
+    {
+        get
+        {
+            return _jerseyNumber;
+        }
+
+        set
+        {
+            if (value < 1 || value > 98)
+            {
+                throw new ArgumentOutOfRangeException("Jersey Number should be between 1 and 98", new ArgumentException());
+            }
+
+            _jerseyNumber = value;
+        }
+    }
+
+    public int Age => (DateOnly.FromDateTime(DateTime.Now).DayNumber - DateOfBirth.DayNumber) / 365;
+
     // Override ToString()
-        // for example if you were to put Console.WriteLine(player1), this method would automatically output the object using the following template
+    // for example if you were to put Console.WriteLine(player1), this method would automatically output the object using the following template
     public override string ToString()
     {
 

@@ -1,25 +1,20 @@
 ﻿<Properties StartupConfiguration="{5AE8EA82-3F50-4D51-889E-EF7428355B9F}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.ItemProperties.UtilitiesTestProject FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="HockeyPlayer.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="../HockeyTestProject/HockeyPlayerTest.cs">
     <Files>
-      <File FileName="HockeyPlayer.cs" Line="87" Column="46" />
+      <File FileName="HockeyPlayer.cs" />
       <File FileName="../Utilities/Utilities.cs" />
+      <File FileName="../HockeyTestProject/HockeyPlayerTest.cs" Line="6" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="CPSC1517Workbook">
-            <Node name="HockeyClassLibrary">
-              <Node name="HockeyPlayer.cs" selected="True" />
-            </Node>
-            <Node name="Utilities" expanded="True" />
-          </Node>
-        </State>
+        <State name="__root__" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.HockeyConsoleApp PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
