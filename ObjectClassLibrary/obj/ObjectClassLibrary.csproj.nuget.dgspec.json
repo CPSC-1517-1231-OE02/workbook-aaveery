@@ -1,0 +1,118 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/avery/Projects/workbook-aaveery/ObjectClassLibrary/ObjectClassLibrary.csproj": {}
+  },
+  "projects": {
+    "/Users/avery/Projects/workbook-aaveery/ObjectClassLibrary/ObjectClassLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/avery/Projects/workbook-aaveery/ObjectClassLibrary/ObjectClassLibrary.csproj",
+        "projectName": "ObjectClassLibrary",
+        "projectPath": "/Users/avery/Projects/workbook-aaveery/ObjectClassLibrary/ObjectClassLibrary.csproj",
+        "packagesPath": "/Users/avery/.nuget/packages/",
+        "outputPath": "/Users/avery/Projects/workbook-aaveery/ObjectClassLibrary/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/avery/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/avery/Projects/workbook-aaveery/Utilities/Utilities.csproj": {
+                "projectPath": "/Users/avery/Projects/workbook-aaveery/Utilities/Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/avery/Projects/workbook-aaveery/Utilities/Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/avery/Projects/workbook-aaveery/Utilities/Utilities.csproj",
+        "projectName": "Utilities",
+        "projectPath": "/Users/avery/Projects/workbook-aaveery/Utilities/Utilities.csproj",
+        "packagesPath": "/Users/avery/.nuget/packages/",
+        "outputPath": "/Users/avery/Projects/workbook-aaveery/Utilities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/avery/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,6 +1,7 @@
 ﻿using HockeyClassLibrary.Data;
 using FluentAssertions;
 using System.Collections;
+using System.Globalization;
 
 namespace Hockey.Test;
 
@@ -9,15 +10,15 @@ public class HockeyPlayerTest
     // constants for a test player
     const string FirstName = "Connor";
     const string LastName = "Brown";
-    const string BirthPlace = "Toronto, Ontario";
+    const string BirthPlace = "Toronto-ON-CAN";
     const int HeightInInches = 72;
-    const int WeightInPounds = 188;
+    const int WeightInPounds = 188; 
     const int JerseyNumber = 28;
     const Position PlayerPosition = Position.Center;
     const Shot PlayerShot = Shot.Left;
     // cant be a constant so we make it static readonly 
     static readonly DateOnly DateOfBirth = new DateOnly(1994, 01, 14); // he should be 29
-    const string ToStringValue = $"{FirstName}, {LastName}";
+    string ToStringValue = $"{FirstName},{LastName},{JerseyNumber},{PlayerPosition},{PlayerShot},{HeightInInches},{WeightInPounds},{DateOfBirth.ToString("MMM-dd-yyyy", CultureInfo.InvariantCulture)},{BirthPlace}";
     readonly int Age = (DateOnly.FromDateTime(DateTime.Now).DayNumber - DateOfBirth.DayNumber) / 365;
 
     public HockeyPlayer CreateTestHockeyPlayer()
@@ -114,6 +115,62 @@ public class HockeyPlayerTest
         // assert
         actual.Should().Be(ToStringValue);
     }
+
+    [Fact]
+    public void HockeyPlayer_Parse_ParsesCorrectly()
+    {
+        HockeyPlayer actual;
+        string line = $"{FirstName},{LastName},{JerseyNumber},{PlayerPosition},{PlayerShot},{HeightInInches},{WeightInPounds},Jan-14-1994,{BirthPlace}";
+
+        actual = HockeyPlayer.Parse(line);
+
+        actual.Should().BeOfType<HockeyPlayer>();
+    }
+
+    [Theory]
+    [InlineData(null)]
+    [InlineData("")]
+    [InlineData(" ")]
+    public void HockeyPlayer_Parse_ThrowsForNullEmptyOrWhiteSpace(string line)
+    {
+        Action act = () => HockeyPlayer.Parse(line);
+
+        act.Should().Throw<ArgumentNullException>().WithMessage("Line cannot be null or empty.");
+    }
+
+    [Fact]
+    public void HockeyPlayer_Parse_ThrowsForInvalidNumberOfFields()
+    {
+        string line = "one";
+
+        Action act = () => HockeyPlayer.Parse(line);
+
+        act.Should().Throw<InvalidDataException>().WithMessage("Incorrect number of fields.");
+    }
+
+    [Fact]
+    public void HockeyPlayer_Parse_ThrowsForFormatError()
+    {
+        string line = "one, two, three, four, five, six, seven, eight, nine";
+
+        Action act = () => HockeyPlayer.Parse(line);
+
+        act.Should().Throw<FormatException>().WithMessage("*Error parsing line*");
+    }
+
+    [Fact]
+    public void HockeyPlayer_TryParse_ParsesCorrectly()
+    {
+        HockeyPlayer actual = null;
+        bool result;
+
+        result = HockeyPlayer.TryParse(ToStringValue, out actual);
+
+        result.Should().BeTrue();
+        actual.Should().NotBe(null);
+    }
+
+    // TODO: create the false test
 
     // how you could test that your age logic is correct
     //[Fact]

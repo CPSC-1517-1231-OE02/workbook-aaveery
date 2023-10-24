@@ -1,0 +1,15 @@
+/Users/avery/Projects/workbook-aaveery/ObjectClassLibrary/bin/Debug/net7.0/ObjectClassLibrary.deps.json
+/Users/avery/Projects/workbook-aaveery/ObjectClassLibrary/bin/Debug/net7.0/ObjectClassLibrary.dll
+/Users/avery/Projects/workbook-aaveery/ObjectClassLibrary/bin/Debug/net7.0/ObjectClassLibrary.pdb
+/Users/avery/Projects/workbook-aaveery/ObjectClassLibrary/obj/Debug/net7.0/ObjectClassLibrary.csproj.AssemblyReference.cache
+/Users/avery/Projects/workbook-aaveery/ObjectClassLibrary/obj/Debug/net7.0/ObjectClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/avery/Projects/workbook-aaveery/ObjectClassLibrary/obj/Debug/net7.0/ObjectClassLibrary.AssemblyInfoInputs.cache
+/Users/avery/Projects/workbook-aaveery/ObjectClassLibrary/obj/Debug/net7.0/ObjectClassLibrary.AssemblyInfo.cs
+/Users/avery/Projects/workbook-aaveery/ObjectClassLibrary/obj/Debug/net7.0/ObjectClassLibrary.csproj.CoreCompileInputs.cache
+/Users/avery/Projects/workbook-aaveery/ObjectClassLibrary/obj/Debug/net7.0/ObjectClassLibrary.dll
+/Users/avery/Projects/workbook-aaveery/ObjectClassLibrary/obj/Debug/net7.0/refint/ObjectClassLibrary.dll
+/Users/avery/Projects/workbook-aaveery/ObjectClassLibrary/obj/Debug/net7.0/ObjectClassLibrary.pdb
+/Users/avery/Projects/workbook-aaveery/ObjectClassLibrary/obj/Debug/net7.0/ref/ObjectClassLibrary.dll
+/Users/avery/Projects/workbook-aaveery/ObjectClassLibrary/bin/Debug/net7.0/Utilities.dll
+/Users/avery/Projects/workbook-aaveery/ObjectClassLibrary/bin/Debug/net7.0/Utilities.pdb
+/Users/avery/Projects/workbook-aaveery/ObjectClassLibrary/obj/Debug/net7.0/ObjectClassLibrary.csproj.CopyComplete

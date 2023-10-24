@@ -1,4 +1,5 @@
 ﻿using Utils;
+using System.Globalization;
 
 /// <summay>
 /// An instance of this class will hold data about a hockey player.
@@ -240,8 +241,65 @@ public class HockeyPlayer
     public override string ToString()
     {
 
-        return $"{FirstName}, {LastName}";
+        return $"{FirstName},{LastName},{JerseyNumber},{Position},{Shot},{HeightInInches},{WeightInPounds},{DateOfBirth.ToString("MMM-dd-yyyy", CultureInfo.InvariantCulture)},{BirthPlace}";
 
+    }
+
+    public static HockeyPlayer Parse(string line)
+    {
+        // Connor,Brown,28,RightWing,Right,72,184,Jan-14-1994,Toronto-ON-CAN
+        //   0      1    2     3       4    5  6       7            8
+
+        // validation
+        if (string.IsNullOrWhiteSpace(line))
+        {
+            throw new ArgumentNullException("line cannot be null or empty.", new ArgumentException());
+        }
+
+        // split on commas
+        string[] fields = line.Split(',');
+
+        // split validation
+            // no reason to continue on trying to parse if there are not enough fields
+        if (fields.Length != 9)
+        {
+            throw new InvalidDataException("Incorrect number of fields.");
+        }
+
+        HockeyPlayer player;
+
+        try
+        {
+            player = new HockeyPlayer(fields[0], fields[1], fields[8], DateOnly.ParseExact(fields[7], "MMM-dd-yyyy", CultureInfo.InvariantCulture), int.Parse(fields[5]), int.Parse(fields[6]), int.Parse(fields[2]), Enum.Parse<Position>(fields[3]), Enum.Parse<Shot>(fields[4]));
+        }
+        catch
+        {
+            throw new FormatException($"Error parsing line {line}");
+        }
+
+        return player;
+    }
+
+    // out is a keyword that identifies a out parameter, it will explicitly return a boolean but the out parameter will be updated
+        // gets around only being able to have one return value
+    public static bool TryParse(string line, out HockeyPlayer? player)
+    {
+        bool isParsed;
+
+        try
+        {
+            // try to parse it and if it's successful than return true
+            player = HockeyPlayer.Parse(line);
+            isParsed = true;
+        }
+        catch
+        {
+            // set the player to null if it doesn't work so that you don't have the warning
+            player = null;
+            isParsed = false;
+        }
+
+        return isParsed;
     }
 }
 

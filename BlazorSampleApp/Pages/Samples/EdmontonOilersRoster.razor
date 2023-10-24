@@ -1,0 +1,96 @@
+﻿@page "/edmonton-oilers"
+@using HockeyClassLibrary.Data
+
+<h3>Edmonton Oilers Roster</h3>
+<p>
+    This Blazor component displays a list of player on the Edmonton Oilers 2023-23 roster.
+    The data is loaded from a CSV file. 
+</p>
+
+@if (FeedbackMessage != null)
+{
+        <div class="alert alert-danger">
+            @FeedbackMessage
+        </div>
+}
+
+@if (Players.Count > 0)
+{
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Jersey #</th>
+                    <th>Position</th>
+                    <th>Shot</th>
+                    <th>Height</th>
+                    <th>Weight</th>
+                    <th>Hometown</th>
+                    <th>DOB</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var CurrentPlayer in Players)
+                 {
+                    <tr>
+                        <td>@CurrentPlayer.FirstName @CurrentPlayer.LastName</td>
+                        <td>@CurrentPlayer.JerseyNumber</td>
+                        <td>@CurrentPlayer.Position</td>
+                        <td>@CurrentPlayer.Shot</td>
+                        <td>@CurrentPlayer.HeightInInches</td>
+                        <td>@CurrentPlayer.WeightInPounds</td>
+                        <td>@CurrentPlayer.BirthPlace</td>
+                        <td>@CurrentPlayer.DateOfBirth.ToString("d")</td>
+                    </tr>
+                 }
+            </tbody>
+        </table>
+} 
+
+@code {
+    private string? FeedbackMessage { get; set; }
+    private List<HockeyPlayer> Players { get; set; } = new();
+
+    // this will provide access to our web host environment so we can find the path of where the file is located on the webserver.
+    [Inject]
+    public IWebHostEnvironment WebHostEnvironment { get; set; } = default!;
+
+    protected override void OnInitialized()
+    {
+        // @ at the beginning of a string will disregard any escape sequence characters
+        string csvFilePath = $"{WebHostEnvironment.ContentRootPath}/Data/players.csv";
+
+        // by putting the stream reader in an using statement, we don't need to add a reader.Close() method call because it'll automatically close when it's done
+        using (StreamReader reader = new StreamReader(csvFilePath))
+        {
+            // read first line and skip over it
+            reader.ReadLine();
+
+            // read one line at a time until we reach the end of the file
+            string? currentLine;
+
+            // while the reader is not at the end of the file
+            while((currentLine = reader.ReadLine()) != null)
+            {
+                try
+                {
+                    HockeyPlayer? currentPlayer = null;
+                    if ((currentPlayer = HockeyPlayer.Parse(currentLine)) != null)
+                    {
+                        Players.Add(currentPlayer);
+                    }
+                }
+                catch (Exception e)
+                {
+                    FeedbackMessage = e.Message;
+                }
+            }
+
+            // not necessary
+            reader.Close();
+        }
+
+        base.OnInitialized();
+    }
+}
+
