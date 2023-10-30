@@ -5691,32 +5691,34 @@
     ]
   },
   "packageFolders": {
-    "/Users/avery/.nuget/packages/": {}
+    "C:\\Users\\Owner\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/avery/Projects/workbook-aaveery/ObjectClassLibraryTest/ObjectClassLibraryTest.csproj",
+      "projectUniqueName": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\ObjectClassLibraryTest\\ObjectClassLibraryTest.csproj",
       "projectName": "ObjectClassLibraryTest",
-      "projectPath": "/Users/avery/Projects/workbook-aaveery/ObjectClassLibraryTest/ObjectClassLibraryTest.csproj",
-      "packagesPath": "/Users/avery/.nuget/packages/",
-      "outputPath": "/Users/avery/Projects/workbook-aaveery/ObjectClassLibraryTest/obj/",
+      "projectPath": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\ObjectClassLibraryTest\\ObjectClassLibraryTest.csproj",
+      "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\ObjectClassLibraryTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/avery/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/avery/Projects/workbook-aaveery/ObjectClassLibrary/ObjectClassLibrary.csproj": {
-              "projectPath": "/Users/avery/Projects/workbook-aaveery/ObjectClassLibrary/ObjectClassLibrary.csproj"
+            "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\ObjectClassLibrary\\ObjectClassLibrary.csproj": {
+              "projectPath": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\ObjectClassLibrary\\ObjectClassLibrary.csproj"
             }
           }
         }
@@ -5772,7 +5774,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

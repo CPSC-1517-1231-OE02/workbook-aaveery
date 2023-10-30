@@ -5691,32 +5691,34 @@
     ]
   },
   "packageFolders": {
-    "/Users/avery/.nuget/packages/": {}
+    "C:\\Users\\Owner\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/avery/Projects/workbook-aaveery/HockeyTestProject/HockeyTestProject.csproj",
+      "projectUniqueName": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\HockeyTestProject\\HockeyTestProject.csproj",
       "projectName": "HockeyTestProject",
-      "projectPath": "/Users/avery/Projects/workbook-aaveery/HockeyTestProject/HockeyTestProject.csproj",
-      "packagesPath": "/Users/avery/.nuget/packages/",
-      "outputPath": "/Users/avery/Projects/workbook-aaveery/HockeyTestProject/obj/",
+      "projectPath": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\HockeyTestProject\\HockeyTestProject.csproj",
+      "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\HockeyTestProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/avery/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/avery/Projects/workbook-aaveery/HockeyClassLibrary/HockeyClassLibrary.csproj": {
-              "projectPath": "/Users/avery/Projects/workbook-aaveery/HockeyClassLibrary/HockeyClassLibrary.csproj"
+            "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\HockeyClassLibrary\\HockeyClassLibrary.csproj": {
+              "projectPath": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\HockeyClassLibrary\\HockeyClassLibrary.csproj"
             }
           }
         }
@@ -5772,7 +5774,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

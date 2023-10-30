@@ -12,9 +12,6 @@
     <None Remove="Pages\Samples\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Pages\Samples\" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\HockeyClassLibrary\HockeyClassLibrary.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>

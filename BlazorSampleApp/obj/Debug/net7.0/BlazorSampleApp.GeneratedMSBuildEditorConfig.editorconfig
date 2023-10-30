@@ -9,77 +9,81 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlazorSampleApp
 build_property.RootNamespace = BlazorSampleApp
-build_property.ProjectDir = /Users/avery/Projects/workbook-aaveery/BlazorSampleApp/
+build_property.ProjectDir = C:\Users\Owner\OneDrive\Desktop\workbook\BlazorSampleApp\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/avery/Projects/workbook-aaveery/BlazorSampleApp
+build_property.MSBuildProjectDirectory = C:\Users\Owner\OneDrive\Desktop\workbook\BlazorSampleApp
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/App.razor]
+[C:/Users/Owner/OneDrive/Desktop/workbook/BlazorSampleApp/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
+[C:/Users/Owner/OneDrive/Desktop/workbook/BlazorSampleApp/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmV0Y2hEYXRhLnJhem9y
+[C:/Users/Owner/OneDrive/Desktop/workbook/BlazorSampleApp/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+[C:/Users/Owner/OneDrive/Desktop/workbook/BlazorSampleApp/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/Pages/Samples/Calculator.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2FtcGxlcy9DYWxjdWxhdG9yLnJhem9y
+[C:/Users/Owner/OneDrive/Desktop/workbook/BlazorSampleApp/Pages/Samples/Calculator.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FtcGxlc1xDYWxjdWxhdG9yLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/Pages/Samples/ControlsCheckbox.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2FtcGxlcy9Db250cm9sc0NoZWNrYm94LnJhem9y
+[C:/Users/Owner/OneDrive/Desktop/workbook/BlazorSampleApp/Pages/Samples/ControlsCheckbox.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FtcGxlc1xDb250cm9sc0NoZWNrYm94LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/Pages/Samples/ControlSelect.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2FtcGxlcy9Db250cm9sU2VsZWN0LnJhem9y
+[C:/Users/Owner/OneDrive/Desktop/workbook/BlazorSampleApp/Pages/Samples/ControlSelect.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FtcGxlc1xDb250cm9sU2VsZWN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/Pages/Samples/CurrentDateTime.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2FtcGxlcy9DdXJyZW50RGF0ZVRpbWUucmF6b3I=
+[C:/Users/Owner/OneDrive/Desktop/workbook/BlazorSampleApp/Pages/Samples/CurrentDateTime.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FtcGxlc1xDdXJyZW50RGF0ZVRpbWUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/Pages/Samples/EdmontonOilersRoster.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2FtcGxlcy9FZG1vbnRvbk9pbGVyc1Jvc3Rlci5yYXpvcg==
+[C:/Users/Owner/OneDrive/Desktop/workbook/BlazorSampleApp/Pages/Samples/EdmontonOilersRoster.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FtcGxlc1xFZG1vbnRvbk9pbGVyc1Jvc3Rlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/Pages/Samples/FormControlsAndStyling.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2FtcGxlcy9Gb3JtQ29udHJvbHNBbmRTdHlsaW5nLnJhem9y
+[C:/Users/Owner/OneDrive/Desktop/workbook/BlazorSampleApp/Pages/Samples/FormControlsAndStyling.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FtcGxlc1xGb3JtQ29udHJvbHNBbmRTdHlsaW5nLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/Pages/Samples/MaxRandomNumber.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2FtcGxlcy9NYXhSYW5kb21OdW1iZXIucmF6b3I=
+[C:/Users/Owner/OneDrive/Desktop/workbook/BlazorSampleApp/Pages/Samples/FormValidation.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FtcGxlc1xGb3JtVmFsaWRhdGlvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/Shared/SurveyPrompt.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
+[C:/Users/Owner/OneDrive/Desktop/workbook/BlazorSampleApp/Pages/Samples/MaxRandomNumber.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FtcGxlc1xNYXhSYW5kb21OdW1iZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/_Imports.razor]
+[C:/Users/Owner/OneDrive/Desktop/workbook/BlazorSampleApp/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Owner/OneDrive/Desktop/workbook/BlazorSampleApp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/Shared/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-cqkz9syp2o
+[C:/Users/Owner/OneDrive/Desktop/workbook/BlazorSampleApp/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-gdessyukrg
 
-[/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/Shared/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-d7gvb9md6y
+[C:/Users/Owner/OneDrive/Desktop/workbook/BlazorSampleApp/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-vvsqjrzzcb
 
-[/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+[C:/Users/Owner/OneDrive/Desktop/workbook/BlazorSampleApp/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/Pages/_Host.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0hvc3QuY3NodG1s
+[C:/Users/Owner/OneDrive/Desktop/workbook/BlazorSampleApp/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

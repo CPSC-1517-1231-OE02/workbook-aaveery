@@ -1,90 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "/Users/avery/Projects/workbook-aaveery/ObjectClassLibraryTest/ObjectClassLibraryTest.csproj": {}
+    "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\ObjectClassLibraryTest\\ObjectClassLibraryTest.csproj": {}
   },
   "projects": {
-    "/Users/avery/Projects/workbook-aaveery/ObjectClassLibrary/ObjectClassLibrary.csproj": {
+    "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\ObjectClassLibraryTest\\ObjectClassLibraryTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/avery/Projects/workbook-aaveery/ObjectClassLibrary/ObjectClassLibrary.csproj",
-        "projectName": "ObjectClassLibrary",
-        "projectPath": "/Users/avery/Projects/workbook-aaveery/ObjectClassLibrary/ObjectClassLibrary.csproj",
-        "packagesPath": "/Users/avery/.nuget/packages/",
-        "outputPath": "/Users/avery/Projects/workbook-aaveery/ObjectClassLibrary/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/avery/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net7.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
-            "projectReferences": {
-              "/Users/avery/Projects/workbook-aaveery/Utilities/Utilities.csproj": {
-                "projectPath": "/Users/avery/Projects/workbook-aaveery/Utilities/Utilities.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/avery/Projects/workbook-aaveery/ObjectClassLibraryTest/ObjectClassLibraryTest.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/avery/Projects/workbook-aaveery/ObjectClassLibraryTest/ObjectClassLibraryTest.csproj",
+        "projectUniqueName": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\ObjectClassLibraryTest\\ObjectClassLibraryTest.csproj",
         "projectName": "ObjectClassLibraryTest",
-        "projectPath": "/Users/avery/Projects/workbook-aaveery/ObjectClassLibraryTest/ObjectClassLibraryTest.csproj",
-        "packagesPath": "/Users/avery/.nuget/packages/",
-        "outputPath": "/Users/avery/Projects/workbook-aaveery/ObjectClassLibraryTest/obj/",
+        "projectPath": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\ObjectClassLibraryTest\\ObjectClassLibraryTest.csproj",
+        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\ObjectClassLibraryTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/avery/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/avery/Projects/workbook-aaveery/ObjectClassLibrary/ObjectClassLibrary.csproj": {
-                "projectPath": "/Users/avery/Projects/workbook-aaveery/ObjectClassLibrary/ObjectClassLibrary.csproj"
+              "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\ObjectClassLibrary\\ObjectClassLibrary.csproj": {
+                "projectPath": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\ObjectClassLibrary\\ObjectClassLibrary.csproj"
               }
             }
           }
@@ -140,26 +85,87 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/avery/Projects/workbook-aaveery/Utilities/Utilities.csproj": {
+    "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\ObjectClassLibrary\\ObjectClassLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/avery/Projects/workbook-aaveery/Utilities/Utilities.csproj",
-        "projectName": "Utilities",
-        "projectPath": "/Users/avery/Projects/workbook-aaveery/Utilities/Utilities.csproj",
-        "packagesPath": "/Users/avery/.nuget/packages/",
-        "outputPath": "/Users/avery/Projects/workbook-aaveery/Utilities/obj/",
+        "projectUniqueName": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\ObjectClassLibrary\\ObjectClassLibrary.csproj",
+        "projectName": "ObjectClassLibrary",
+        "projectPath": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\ObjectClassLibrary\\ObjectClassLibrary.csproj",
+        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\ObjectClassLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/avery/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\Utilities\\Utilities.csproj": {
+                "projectPath": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\Utilities\\Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\Utilities\\Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\Utilities\\Utilities.csproj",
+        "projectName": "Utilities",
+        "projectPath": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\Utilities\\Utilities.csproj",
+        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -193,7 +199,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

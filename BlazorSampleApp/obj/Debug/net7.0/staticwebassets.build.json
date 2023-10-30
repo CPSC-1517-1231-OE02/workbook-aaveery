@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6wR+RK75bRv0yZwdCC253BqsKjrg04UNM0BRwjslxzo=",
+  "Hash": "5KrdrSG700a0UXT7rkR2PytfPpZ0+YVtYtZFvR3pm+k=",
   "Source": "BlazorSampleApp",
   "BasePath": "_content/BlazorSampleApp",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "BlazorSampleApp/wwwroot",
+      "Name": "BlazorSampleApp\\wwwroot",
       "Source": "BlazorSampleApp",
-      "ContentRoot": "/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\BlazorSampleApp\\wwwroot\\",
       "BasePath": "_content/BlazorSampleApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/obj/Debug/net7.0/scopedcss/bundle/BlazorSampleApp.styles.css",
+      "Identity": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\BlazorSampleApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorSampleApp.styles.css",
       "SourceId": "BlazorSampleApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/obj/Debug/net7.0/scopedcss/bundle/",
+      "ContentRoot": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\BlazorSampleApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BlazorSampleApp",
       "RelativePath": "BlazorSampleApp.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/obj/Debug/net7.0/scopedcss/bundle/BlazorSampleApp.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\BlazorSampleApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorSampleApp.styles.css"
     },
     {
-      "Identity": "/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/obj/Debug/net7.0/scopedcss/projectbundle/BlazorSampleApp.bundle.scp.css",
+      "Identity": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\BlazorSampleApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorSampleApp.bundle.scp.css",
       "SourceId": "BlazorSampleApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/obj/Debug/net7.0/scopedcss/projectbundle/",
+      "ContentRoot": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\BlazorSampleApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BlazorSampleApp",
       "RelativePath": "BlazorSampleApp.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/obj/Debug/net7.0/scopedcss/projectbundle/BlazorSampleApp.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\BlazorSampleApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorSampleApp.bundle.scp.css"
     },
     {
-      "Identity": "/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/wwwroot/css/bootstrap/bootstrap.min.css",
+      "Identity": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\BlazorSampleApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "BlazorSampleApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\BlazorSampleApp\\wwwroot\\",
       "BasePath": "_content/BlazorSampleApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\BlazorSampleApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "BlazorSampleApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\BlazorSampleApp\\wwwroot\\",
       "BasePath": "_content/BlazorSampleApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -82,30 +82,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/wwwroot/css/open-iconic/FONT-LICENSE",
+      "Identity": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\BlazorSampleApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "BlazorSampleApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/wwwroot/",
-      "BasePath": "_content/BlazorSampleApp",
-      "RelativePath": "css/open-iconic/FONT-LICENSE",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/FONT-LICENSE"
-    },
-    {
-      "Identity": "/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
-      "SourceId": "BlazorSampleApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\BlazorSampleApp\\wwwroot\\",
       "BasePath": "_content/BlazorSampleApp",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -116,13 +99,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
+      "Identity": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\BlazorSampleApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "BlazorSampleApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\BlazorSampleApp\\wwwroot\\",
       "BasePath": "_content/BlazorSampleApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -133,13 +116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.eot"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
+      "Identity": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\BlazorSampleApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "BlazorSampleApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\BlazorSampleApp\\wwwroot\\",
       "BasePath": "_content/BlazorSampleApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -150,13 +133,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.otf"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
+      "Identity": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\BlazorSampleApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "BlazorSampleApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\BlazorSampleApp\\wwwroot\\",
       "BasePath": "_content/BlazorSampleApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -167,13 +150,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.svg"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
+      "Identity": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\BlazorSampleApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "BlazorSampleApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\BlazorSampleApp\\wwwroot\\",
       "BasePath": "_content/BlazorSampleApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -184,13 +167,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.ttf"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
+      "Identity": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\BlazorSampleApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "BlazorSampleApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\BlazorSampleApp\\wwwroot\\",
       "BasePath": "_content/BlazorSampleApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -201,13 +184,30 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.woff"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/wwwroot/css/open-iconic/ICON-LICENSE",
+      "Identity": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\BlazorSampleApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "BlazorSampleApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\BlazorSampleApp\\wwwroot\\",
+      "BasePath": "_content/BlazorSampleApp",
+      "RelativePath": "css/open-iconic/FONT-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
+    },
+    {
+      "Identity": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\BlazorSampleApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "SourceId": "BlazorSampleApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\BlazorSampleApp\\wwwroot\\",
       "BasePath": "_content/BlazorSampleApp",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -218,13 +218,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/ICON-LICENSE"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/wwwroot/css/open-iconic/README.md",
+      "Identity": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\BlazorSampleApp\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "BlazorSampleApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\BlazorSampleApp\\wwwroot\\",
       "BasePath": "_content/BlazorSampleApp",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -235,13 +235,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/README.md"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/wwwroot/css/site.css",
+      "Identity": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\BlazorSampleApp\\wwwroot\\css\\site.css",
       "SourceId": "BlazorSampleApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\BlazorSampleApp\\wwwroot\\",
       "BasePath": "_content/BlazorSampleApp",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -252,13 +252,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/site.css"
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/wwwroot/css/styles.css",
+      "Identity": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\BlazorSampleApp\\wwwroot\\css\\styles.css",
       "SourceId": "BlazorSampleApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\BlazorSampleApp\\wwwroot\\",
       "BasePath": "_content/BlazorSampleApp",
       "RelativePath": "css/styles.css",
       "AssetKind": "All",
@@ -269,13 +269,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/styles.css"
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
-      "Identity": "/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/wwwroot/favicon.png",
+      "Identity": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\BlazorSampleApp\\wwwroot\\favicon.png",
       "SourceId": "BlazorSampleApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/avery/Projects/workbook-aaveery/BlazorSampleApp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Owner\\OneDrive\\Desktop\\workbook\\BlazorSampleApp\\wwwroot\\",
       "BasePath": "_content/BlazorSampleApp",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -286,7 +286,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/favicon.png"
+      "OriginalItemSpec": "wwwroot\\favicon.png"
     }
   ]
 }

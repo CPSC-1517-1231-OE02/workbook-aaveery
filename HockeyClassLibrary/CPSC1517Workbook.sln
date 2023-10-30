@@ -1,28 +1,28 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1706.3
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HockeyClassLibrary", "HockeyClassLibrary.csproj", "{66D32621-BB01-4494-B79B-D2F25CCD5983}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HockeyClassLibrary", "HockeyClassLibrary.csproj", "{66D32621-BB01-4494-B79B-D2F25CCD5983}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{62825334-A6F0-46C6-A8AE-35A24A11DFE0}"
 	ProjectSection(SolutionItems) = preProject
 		EmptyClass.cs = EmptyClass.cs
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "..\Utilities\Utilities.csproj", "{98FEF08C-4511-4E4A-8D95-0AAAE969433C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utilities", "..\Utilities\Utilities.csproj", "{98FEF08C-4511-4E4A-8D95-0AAAE969433C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HockeyConsoleApp", "..\HockeyConsoleApp\HockeyConsoleApp.csproj", "{5AE8EA82-3F50-4D51-889E-EF7428355B9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HockeyConsoleApp", "..\HockeyConsoleApp\HockeyConsoleApp.csproj", "{5AE8EA82-3F50-4D51-889E-EF7428355B9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HockeyTestProject", "..\HockeyTestProject\HockeyTestProject.csproj", "{E3C0078B-21FF-4C51-92E8-714568FE61C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HockeyTestProject", "..\HockeyTestProject\HockeyTestProject.csproj", "{E3C0078B-21FF-4C51-92E8-714568FE61C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilitiesTestProject", "..\UtilitiesTestProject\UtilitiesTestProject.csproj", "{93AC90BA-9B69-465D-BE41-988DC92F81BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UtilitiesTestProject", "..\UtilitiesTestProject\UtilitiesTestProject.csproj", "{93AC90BA-9B69-465D-BE41-988DC92F81BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectClassLibrary", "..\ObjectClassLibrary\ObjectClassLibrary.csproj", "{3E2A80C2-77FF-436C-BBEA-E931CBB711A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObjectClassLibrary", "..\ObjectClassLibrary\ObjectClassLibrary.csproj", "{3E2A80C2-77FF-436C-BBEA-E931CBB711A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectClassLibraryTest", "..\ObjectClassLibraryTest\ObjectClassLibraryTest.csproj", "{1272E91A-8E55-4A01-A8DC-1DFF38E8FE68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObjectClassLibraryTest", "..\ObjectClassLibraryTest\ObjectClassLibraryTest.csproj", "{1272E91A-8E55-4A01-A8DC-1DFF38E8FE68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorSampleApp", "..\BlazorSampleApp\BlazorSampleApp.csproj", "{9665D069-BB51-4556-BAA2-5AB304775286}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorSampleApp", "..\BlazorSampleApp\BlazorSampleApp.csproj", "{9665D069-BB51-4556-BAA2-5AB304775286}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,147 @@
+﻿@page "/service"
+
+<h3>Service Request</h3>
+
+<fieldset class="form-group card p-3 mb-3 bg-light">
+    <legend>Contact Information</legend>
+    <div class="mb-3">
+        <label class="form-label" for="contact-name">Contact Name:</label>
+        <input class="form-control @(ErrorList.ContainsKey("contact-name") ? "is-invalid" : "")" type="text" id="contact-name" @bind="ContactName" />
+        @if (ErrorList.ContainsKey("contact-name"))
+        {
+            <div class="alert alert-danger mt-3">@ErrorList["contact-name"]</div>
+        }
+    </div>
+    <div class="mb-3">
+        <label class="form-label" for="phone-number">Phone Number:</label>
+        <input class="form-control" type="text" id="phone-number" placeholder="123-456-7890" @bind="PhoneNumber" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label" for="customer-years"># of Years as a Customer:</label>
+        <input class="form-control" type="number" id="customer-years" min="0" step="1" @bind="YearsAsCustomer" />
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="current-customer" @bind="CurrentCustomer" />
+        <label class="form-check-label" for="current-customer">Current Customer</label>
+    </div>
+</fieldset>
+
+<fieldset class="form-group card p-3 mb-3 bg-light">
+    <legend>Bundle Information</legend>
+    @*  the following is a demo on radio buttons
+        same name on all radio buttons will make it so that only one option can be selected *@
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="service-type" id="internet" 
+        checked="@(ServiceType == "INTERNET")"
+            @onclick="@(() => ServiceType = "INTERNET")"/>
+        <label class="form-check-label" for="internet">Internet</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="service-type" id="tv"
+            checked="@(ServiceType == "TV")"
+            @onclick="@(() => ServiceType = "TV")" />
+        <label class="form-check-label" for="tv">TV</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="service-type" id="internet-tv"
+            checked="@(ServiceType == "INTERNET_TV")"
+            @onclick="@(() => ServiceType = "INTERNET_TV")" />
+        <label class="form-check-label" for="internet-tv">Internet & TV</label>
+    </div>
+</fieldset>
+
+<fieldset class="form-group card p-3 mb-3 bg-light">
+    <legend>Required Service</legend>
+    <div class="mb-3">
+        <select class="form-select" id="reason" @bind="ServiceReason">
+            <option selected disabled>Please select an option</option>
+            <option value="interrupt">Service Interruption</option>
+            <option value="new">New Service</option>
+            <option value="other">Other</option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <label class="form-label" for="request-info">Request Information</label>
+        <textarea class="form-control" id="request-info" rows="3" @bind="ServiceRequest"></textarea>
+    </div>
+</fieldset>
+
+<div class="mb-3">
+    <button @onclick="HandleSubmit" class="btn btn-primary">Submit Request</button>
+</div>
+
+@if(Success)
+{
+    <div class="mb-3 alert alert-info">
+        <p>Request successfully submitted</p>
+        <p>@((MarkupString)DataSent)</p>
+    </div>
+}
+@code {
+    @* contact information properties *@
+    public string? ContactName { get; set; }
+    public string? PhoneNumber { get; set; }
+    public int? YearsAsCustomer { get; set; }
+    public bool? CurrentCustomer { get; set; }
+
+    @* bundle information properties *@
+    @* for radio buttons, its a good idea to put them in an enum, for the purposes of this demo we will be putting them in a string *@
+    public string? ServiceType { get; set; }
+
+    @* required service properties *@
+    public string? ServiceReason { get; set; }
+    public string? ServiceRequest { get; set; }
+
+    public bool Success { get; set; } = false;
+    public string? DataSent { get; set; }
+
+    @* creating a dictionary for error messages:
+        - <string, string> means that the key is a string and it's got string values
+        - initiliaze it using the new() shortcut 
+    *@
+    public Dictionary<string, string> ErrorList { get; set; } = new();
+
+    public void HandleSubmit()
+    {
+        // reset the errors
+        ErrorList.Clear();
+
+        // validate the contact
+        if (string.IsNullOrWhiteSpace(ContactName))
+        {
+            ErrorList.Add("contact-name", "Contact Name cannot be empty.");
+        }
+
+        // TODO: complete the validation checks for the remaining fields
+        // phone number must match patter "NNN-NNN-NNNN"
+        // number of years must be greater than or equal to zero
+        // service type must not be null
+        // reason cannot be the default (for example: select and option)
+        // required service must not be null, empty or whitespace
+
+
+        if (ErrorList.Count() == 0)
+        {
+            // if the error count is zero, then the form is valid
+            Success = true;
+
+            // build the output message
+            DataSent = $@"<strong>Contact name: </strong> {ContactName}
+                    <strong>Phone Number: </strong> {PhoneNumber}
+                    <strong># of Years as a Customer: </strong> {YearsAsCustomer}
+                    <strong>Current: </strong> {CurrentCustomer}
+                    <strong>Service Type: </strong> {ServiceType}
+                    <strong>Service Reason: </strong> {ServiceReason}
+                    <strong>Service Request: </strong> {ServiceRequest}";
+                    }
+
+            // reset the fields
+            ContactName = "";
+            PhoneNumber = "";
+            YearsAsCustomer = 0;
+            CurrentCustomer = false;
+            ServiceType = null;
+            ServiceReason = "";
+            ServiceRequest = "";
+    }
+}
